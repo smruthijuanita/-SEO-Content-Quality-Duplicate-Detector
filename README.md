@@ -73,7 +73,44 @@ Selected **Random Forest Classifier** for its interpretability and stability on 
 | **Duplicates Found**                        | 14 out of 68 pages |
 | **Avg. Quality Score (High-quality pages)** | 74.3 / 100         |
 
-**Inference:** Higher readability (Flesch > 60) and unique keyword density (1–3%) correlated strongly with SEO success.
+**Inference:** Higher readability (Flesch > 60) and unique keyword density (1-3%) correlated strongly with SEO success.
+
+**Sample Quality Scores**: Use analyze_url() to check live pages; returns word count, readability, quality label, and similar pages. E.g.
+
+```text
+{
+  "url": "https://www.leadwalnut.com/",
+  "title": "LeadWalnut | SEO & CRO Agency for B2B Tech Growth & Pipeline Impact",
+  "word_count": 830,
+  "sentence_count": 43,
+  "readability": 42.09,
+  "is_thin": false,
+  "rule_label": "Medium",
+  "model_label": "Medium",
+  "similar_to": [
+    {
+      "url": "https://www.shopify.com/blog/ecommerce-seo-beginners-guide",
+      "similarity": 0.6463
+    },
+    {
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "similarity": 0.5698
+    },
+    {
+      "url": "https://www.twilio.com/en-us/blog/insights/content-marketing-best-practices",
+      "similarity": 0.5576
+    },
+    {
+      "url": "https://mailchimp.com/marketing-glossary/content-marketing/",
+      "similarity": 0.5178
+    },
+    {
+      "url": "https://blog.hubspot.com/marketing/what-is-digital-marketing",
+      "similarity": 0.5177
+    }
+  ]
+}
+```
 
 ## Limitations
 - Dataset size limits generalization to large domains.
