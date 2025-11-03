@@ -82,5 +82,5 @@ Selected **Random Forest Classifier** for its interpretability and stability on 
 
 <br>
 Author: Smruthi Juanita S<br>
-MSc Data Science | CHRIST (Deemed to be University), Bengaluru
+MSc Data Science | CHRIST (Deemed to be University), Bengaluru<br>
 smruthi.juanita@msds.christuniversity.in
