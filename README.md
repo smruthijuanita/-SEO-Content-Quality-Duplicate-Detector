@@ -5,7 +5,7 @@ This project processes pre-scraped HTML content, extracts NLP-based features, id
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 seo-content-detector/
@@ -21,22 +21,23 @@ seo-content-detector/
 ├── requirements.txt                  # Required Python dependencies
 ├── .gitignore                        # Ignored files for Git
 └── README.md                         # Project documentation
+```
 
-## 🚀 Project Overview 
-🎯 **Goal**
+## Project Overview 
+**Goal**
 To automatically evaluate the SEO quality of web pages and detect content duplication across URLs using Natural Language Processing (NLP) and Machine Learning.
 
-🧩 Core Objectives
-Parse & Process HTML Content
-Extract clean readable text from raw HTML pages.
+**Core Objectives**
+- Parse & Process HTML Content
+- Extract clean readable text from raw HTML pages.
 
-Engineer SEO & Linguistic Features
+**Engineer SEO & Linguistic Features**
 Compute readability, keyword density, content length, and semantic embeddings.
 
-Detect Duplicate Content
+**Detect Duplicate Content**
 Identify near-duplicates using cosine similarity on TF-IDF and SVD-transformed vectors.
 
-Score SEO Quality
+**Score SEO Quality**
 Train an ML model (e.g., Random Forest) to classify high vs. low-quality pages.
 
 🧠 Features Extracted
