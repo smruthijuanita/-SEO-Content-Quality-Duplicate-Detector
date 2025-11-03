@@ -1,0 +1,33 @@
+# SEO Content Detector — Git Ignore
+
+# Python cache & build files 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebook Checkpoints 
+.ipynb_checkpoints/
+
+# Virtual Environments 
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Data & Model Artifacts 
+data/*.csv
+!data/data.csv            # Keep only the base dataset
+models/*.pkl
+models/*.joblib
+
+# Archives 
+*.zip
+*.tar
+*.tar.gz
