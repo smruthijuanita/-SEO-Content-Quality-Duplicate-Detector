@@ -59,10 +59,10 @@ Used **BeautifulSoup4** for robust HTML parsing, **textstat** for readability sc
 **(2) HTML Parsing**<br>
 Extracted only visible text using BeautifulSoup’s tag-based filtering to eliminate scripts, styles, and metadata noise.
 
-**(3)Similarity Threshold**<br>
+**(3) Similarity Threshold**<br>
 Applied **cosine similarity > 0.85** on SVD-reduced TF-IDF embeddings to balance recall and false positives.
 
-**(4)Model Selection**<br>
+**(4) Model Selection**<br>
 Selected **Random Forest Classifier** for its interpretability and stability on tabular NLP features.
 
 ## Results Summary
