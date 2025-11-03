@@ -117,6 +117,7 @@ Selected **Random Forest Classifier** for its interpretability and stability on 
 - TF-IDF embeddings lack deeper semantic context (can improve with BERT).
 - Quality labels rely on heuristic thresholds, not human SEO audits.
 
+---
 <br>
 Author: Smruthi Juanita S<br>
 MSc Data Science | CHRIST (Deemed to be University), Bengaluru<br>
